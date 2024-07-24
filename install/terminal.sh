@@ -7,7 +7,6 @@ sudo apt install -y curl git unzip
 for installer in ~/.local/share/omakub/install/terminal/*.sh; do
     echo "##### Running installer: $installer"
     source "$installer"
-    wait
 done
 
 echo "All installers have been run."
