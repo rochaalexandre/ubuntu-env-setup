@@ -4,7 +4,7 @@ TERM = "xterm-256color"
 [window]
 padding.x = 16
 padding.y = 14
-decorations = "none"
+decorations = "full"
 opacity = 0.98
 
 [keyboard]
