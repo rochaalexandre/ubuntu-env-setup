@@ -17,6 +17,7 @@ gext install spotify-controller@koolskateguy89
 gext install dash-to-dock@micxgx.gmail.com
 gext install solaar-extension@sidevesh
 gext install notification-position@drugo.dev
+gext install Hide_Activities@shay.shayel.org
 
 ## Compile gsettings schemas in order to be able to set theme
 sudo cp ~/.local/share/gnome-shell/extensions/tactile@lundal.io/schemas/org.gnome.shell.extensions.tactile.gschema.xml /usr/share/glib-2.0/schemas/
