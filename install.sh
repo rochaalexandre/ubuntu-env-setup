@@ -21,8 +21,8 @@ else
 	echo "Only installing terminal tools..."
 fi
 
-# Install terminal tools
-source ~/.local/share/omakub/install/terminal.sh
+## Install terminal tools
+#source ~/.local/share/omakub/install/terminal.sh
 
 if $RUNNING_GNOME; then
 	# Install desktop tools and tweaks
