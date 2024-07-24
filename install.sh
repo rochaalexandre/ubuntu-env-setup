@@ -22,7 +22,7 @@ else
 fi
 
 ## Install terminal tools
-#source ~/.local/share/omakub/install/terminal.sh
+source ~/.local/share/omakub/install/terminal.sh
 
 if $RUNNING_GNOME; then
 	# Install desktop tools and tweaks
