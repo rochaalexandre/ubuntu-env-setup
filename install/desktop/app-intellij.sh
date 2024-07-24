@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Define IntelliJ IDEA download URL
 IDEA_URL="https://download.jetbrains.com/product?code=IU&latest&distribution=linux"
 mkdir -p ~/.local
