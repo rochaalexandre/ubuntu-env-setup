@@ -12,9 +12,7 @@ tar -xzf /tmp/ideaIU-latest.tar.gz -C "$TARGET_DIR" --strip-components=1
 # Clean up the tarball
 rm /tmp/ideaIU-latest.tar.gz
 
-
-
 ln -sf "$TARGET_DIR/bin/idea.sh" ~/.local/bin/idea
-rm ideaIU-latest.tar.gz
+
 echo "IntelliJ IDEA has been installed successfully to $TARGET_DIR. You can run it using the command 'idea'."
 cd -
