@@ -1,2 +1,2 @@
-apt install -y solaar
+sudo apt install -y solaar
 echo "Solaar has been installed successfully."
