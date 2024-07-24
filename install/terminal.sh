@@ -5,7 +5,7 @@ sudo apt install -y curl git unzip
 
 # Run terminal installers
 for installer in ~/.local/share/omakub/install/terminal/*.sh; do
-    echo "Running installer: $installer"
+    echo "##### Running installer: $installer"
     source "$installer"
 done
 
