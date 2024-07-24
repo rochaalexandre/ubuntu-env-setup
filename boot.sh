@@ -17,7 +17,7 @@ sudo apt-get install -y git >/dev/null
 
 echo "Cloning stable Omakub..."
 rm -rf ~/.local/share/omakub
-git clone -b stable https://github.com/basecamp/omakub.git ~/.local/share/omakub >/dev/null
+git clone -b stable https://github.com/rochaalexandre/omakub.git ~/.local/share/omakub >/dev/null
 
 echo "Installation starting..."
 source ~/.local/share/omakub/install.sh
