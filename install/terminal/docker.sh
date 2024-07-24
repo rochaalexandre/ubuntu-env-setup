@@ -18,7 +18,7 @@ chown ${USER}:${USER} install-docker.sh
 sh install-docker.sh
 
 echo "Install docker rootless"
-nala install uidmap -y
+apt install uidmap -y
 su -c 'dockerd-rootless-setuptool.sh install' ${USER}
 
 rm install-docker.sh
