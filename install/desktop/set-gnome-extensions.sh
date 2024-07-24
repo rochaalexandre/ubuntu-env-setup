@@ -37,7 +37,7 @@ gsettings set org.gnome.shell.extensions.tactile gap-size 32
 
 
 ## Configure Vitals
-gsettings set org.gnome.shell.extensions.vitals hide-icons true
+gsettings set org.gnome.shell.extensions.vitals hide-icons false
 gsettings set org.gnome.shell.extensions.vitals hot-sensors "['_memory_usage_', '__network-rx_max__', '_processor_usage_', '_network_wifi_link quality_']"
 gsettings set org.gnome.shell.extensions.vitals icon-style 0
 gsettings set org.gnome.shell.extensions.vitals position-in-panel 3
