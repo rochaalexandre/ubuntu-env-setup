@@ -3,7 +3,6 @@ set -e
 
 # Desktop software and tweaks will only be installed if we're running Gnome
 RUNNING_GNOME=$([[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]] && echo true || echo false)
-OMAKUB_PATH=~/.local/share/omakub
 
 # Check the distribution name and version and abort if incompatible
 source ~/.local/share/omakub/check-version.sh
