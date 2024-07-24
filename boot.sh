@@ -20,4 +20,4 @@ rm -rf ~/.local/share/omakub
 git clone -b main https://github.com/rochaalexandre/omakub.git ~/.local/share/omakub >/dev/null
 
 echo "Installation starting..."
-source ~/.local/share/omakub/install.sh
+source "$HOME/.local/share/omakub/install.sh"
