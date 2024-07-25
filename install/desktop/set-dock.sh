@@ -1,6 +1,7 @@
 # Favorite apps for dock
 apps=(
 	"google-chrome.desktop"
+	"sublime_text.desktop"
 	"Alacritty.desktop"
 	"WhatsApp.desktop"
 	"spotify.desktop"
