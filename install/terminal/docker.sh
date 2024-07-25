@@ -13,12 +13,12 @@
 
 # Install Docker
 echo "Install docker"
+sudo apt install uidmap -y
 curl -fsSL https://get.docker.com -o install-docker.sh
 chown ${USER}:${USER} install-docker.sh
-sh install-docker.sh
+sudo sh install-docker.sh
 
 echo "Install docker rootless"
-apt install uidmap -y
 su -c 'dockerd-rootless-setuptool.sh install' ${USER}
 
 rm install-docker.sh
