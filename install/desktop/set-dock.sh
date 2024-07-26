@@ -2,13 +2,9 @@
 apps=(
 	"google-chrome.desktop"
 	"sublime_text.desktop"
-	"Alacritty.desktop"
 	"WhatsApp.desktop"
 	"spotify.desktop"
 	"steam.desktop"
-	"Activity.desktop"
-	"Docker.desktop"
-	"Omakub.desktop"
 	"1password.desktop"
 	"org.gnome.Settings.desktop"
 	"org.gnome.Nautilus.desktop"
